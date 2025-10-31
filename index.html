@@ -39,11 +39,11 @@
 
     <!-- NUEVO: Botón para abrir/cerrar el menú (fijo en la esquina superior izquierda) -->
     <button id="menu-toggle" class="fixed top-4 left-4 z-30 p-2 text-white bg-white/10 rounded-lg hover:bg-white/20 transition">
-        <span class="material-symbols-outlined text-3xl">Menu</span>
+        <span class="material-symbols-outlined text-3xl">menu</span>
     </button>
 
-    <!-- NUEVO: Sidebar (menú lateral en la DERECHA, oculto por default) -->
-    <nav id="sidebar" class="fixed top-0 right-0 h-full w-64 bg-[#0C0C0C] z-20 transform translate-x-full transition-transform duration-300 ease-in-out overflow-y-auto">
+    <!-- NUEVO: Sidebar (menú lateral en la IZQUIERDA, oculto por default) -->
+    <nav id="sidebar" class="fixed top-0 left-0 h-full w-64 bg-[#0C0C0C] z-20 transform -translate-x-full transition-transform duration-300 ease-in-out overflow-y-auto">
         <div class="flex h-full flex-col justify-between p-4">
             <div class="flex flex-col gap-4">
                 <div class="flex items-center gap-3 p-2">
@@ -117,7 +117,7 @@
     <!-- NUEVO: Script para abrir/cerrar el sidebar con clic -->
     <script>
         document.getElementById('menu-toggle').addEventListener('click', () => {
-            document.getElementById('sidebar').classList.toggle('translate-x-full');
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
         });
     </script>
 
