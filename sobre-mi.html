@@ -70,19 +70,28 @@
                 <p class="text-gray-300">Ingeniero de Sistemas & Administrador de Empresas</p>
             </section>
 
+            <!-- BOTONES DE CONTACTO FUNCIONALES -->
             <section class="grid md:grid-cols-3 gap-4 mb-8">
-                <div class="bg-white/10 rounded-lg p-4 text-center">
+                <!-- EMAIL -->
+                <a data-contact="email" target="_blank"
+                   class="bg-white/10 rounded-lg p-4 text-center hover:bg-white/20 transition flex flex-col items-center justify-center">
                     <span class="material-symbols-outlined text-2xl mb-1 text-cyan-400">mail</span>
-                    <p class="text-sm">angel.morales@example.com</p>
-                </div>
-                <div class="bg-white/10 rounded-lg p-4 text-center">
+                    <p class="text-sm">cargando...</p>
+                </a>
+
+                <!-- TELÉFONO (WhatsApp) -->
+                <a data-contact="phone" target="_blank"
+                   class="bg-white/10 rounded-lg p-4 text-center hover:bg-white/20 transition flex flex-col items-center justify-center">
                     <span class="material-symbols-outlined text-2xl mb-1 text-cyan-400">phone</span>
-                    <p class="text-sm">+51 999 999 999</p>
-                </div>
-                <div class="bg-white/10 rounded-lg p-4 text-center">
+                    <p class="text-sm">cargando...</p>
+                </a>
+
+                <!-- UBICACIÓN (Google Maps) -->
+                <a data-contact="location" target="_blank"
+                   class="bg-white/10 rounded-lg p-4 text-center hover:bg-white/20 transition flex flex-col items-center justify-center">
                     <span class="material-symbols-outlined text-2xl mb-1 text-cyan-400">location_on</span>
-                    <p class="text-sm">Lima, Perú</p>
-                </div>
+                    <p class="text-sm">cargando...</p>
+                </a>
             </section>
 
             <section class="mb-8">
@@ -116,8 +125,41 @@
         </div>
     </main>
 
-    <!-- SCRIPT -->
+    <!-- SCRIPT: CONFIGURACIÓN + FUNCIONALIDAD -->
     <script>
+        // === CAMBIA SOLO AQUÍ TUS DATOS REALES ===
+        const config = {
+            email: "aguilhermemr@gmail.com",           // ← Tu email real
+            phone: "51999999999",                         // ← Tu número sin + ni espacios
+            location: "São Paulo, Brasil",                       // ← Texto a mostrar
+            locationQuery: "São Paulo, Brasil"                   // ← Para Google Maps (puedes usar coordenadas: "-12.0837,-77.0466")
+        };
+        // ============================================
+
+        // Generar enlaces dinámicos
+        document.querySelectorAll('[data-contact]').forEach(el => {
+            const type = el.getAttribute('data-contact');
+            let href = '';
+            let text = '';
+
+            if (type === 'email') {
+                href = `mailto:${config.email}`;
+                text = config.email;
+            }
+            if (type === 'phone') {
+                href = `https://wa.me/${config.phone}?text=¡Hola%20Angel!%20Me%20gustaría%20contactarte.`;
+                text = `+51 ${config.phone.slice(3,6)} ${config.phone.slice(6,9)} ${config.phone.slice(9)}`;
+            }
+            if (type === 'location') {
+                href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(config.locationQuery)}`;
+                text = config.location;
+            }
+
+            el.setAttribute('href', href);
+            el.querySelector('p').textContent = text;
+        });
+
+        // Menú hamburguesa
         document.getElementById('menu-toggle').addEventListener('click', () => {
             document.getElementById('sidebar').classList.toggle('-translate-x-full');
         });
