@@ -123,5 +123,23 @@ soon: Coming soon.
 articles_hint: Writing on AI applied to business processes.
 library_hint: Reference materials and documents in PDF.
 
+# Projects (the portfolio shows one card per item, in this order)
+projects:
+  - tag: AI · BPM
+    title: Business workflow optimization with machine learning
+    desc: "Postgraduate thesis: Reinforcement Learning (PPO) and Graph Neural Networks (GAT) applied to BPMN processes."
+    repo: https://github.com/aguilhermemr/tcc_senac_agmr
+  - tag: ML · Classification
+    title: Credit card fraud detection
+    desc: "Postgraduate group project (Senac): model comparison on imbalanced data with threshold tuning; XGBoost reached an Average Precision of 0.87."
+    repo: https://github.com/aguilhermemr/senac-pos-ia-ml-project-fraud
+  - tag: ML · Decision support
+    title: Customer churn prediction
+    desc: "Course example worked on as a group during the postgraduate program (Senac): L1 logistic regression with SMOTE, tuned threshold (recall ≈ 76%) and an executive retention report."
+    repo: https://github.com/aguilhermemr/senac-pos-ia-sad-client-churn
+read_more: Read article →
+open_pdf: Open PDF →
+back: ← Back to portfolio
+
 contact_text: Open to IT and AI opportunities in Brazil, Latin America and remote.
 footer: aguilhermemr.github.io

@@ -123,5 +123,23 @@ soon: Próximamente.
 articles_hint: Textos sobre IA aplicada a procesos de negocio.
 library_hint: Materiales y documentos en PDF para consulta.
 
+# Proyectos (el portafolio muestra una tarjeta por elemento, en este orden)
+projects:
+  - tag: IA · BPM
+    title: Optimización de flujos de trabajo empresariales con machine learning
+    desc: "Tesis del posgrado: Reinforcement Learning (PPO) y Graph Neural Networks (GAT) aplicados a procesos BPMN."
+    repo: https://github.com/aguilhermemr/tcc_senac_agmr
+  - tag: ML · Clasificación
+    title: Detección de fraude en tarjetas de crédito
+    desc: "Proyecto en grupo del posgrado (Senac): comparación de modelos con datos desbalanceados y ajuste del umbral; XGBoost con Average Precision de 0,87."
+    repo: https://github.com/aguilhermemr/senac-pos-ia-ml-project-fraud
+  - tag: ML · Apoyo a la decisión
+    title: Predicción de churn de clientes
+    desc: "Ejemplo de la materia trabajado en grupo en el posgrado (Senac): regresión logística L1 con SMOTE, umbral ajustado (recall ≈ 76%) e informe ejecutivo de retención."
+    repo: https://github.com/aguilhermemr/senac-pos-ia-sad-client-churn
+read_more: Leer artículo →
+open_pdf: Abrir PDF →
+back: ← Volver al portafolio
+
 contact_text: Abierto a oportunidades en TI e IA en Brasil, Latinoamérica y en remoto.
 footer: aguilhermemr.github.io

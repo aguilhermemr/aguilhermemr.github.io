@@ -1,0 +1,11 @@
+# Biblioteca de PDFs
+# Para publicar um PDF: coloque o arquivo em assets/biblioteca/ e adicione um item abaixo.
+# A seção "Biblioteca" e o link no menu aparecem sozinhos quando existir pelo menos
+# um item para o idioma da página (lang: pt, en, es ou all para os três).
+#
+# Exemplo:
+# - title: "Introdução ao Reinforcement Learning"
+#   file: introducao-rl.pdf
+#   desc: "Resumo de estudo, 12 páginas."
+#   lang: pt
+[]
