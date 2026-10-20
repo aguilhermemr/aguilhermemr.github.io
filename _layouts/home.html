@@ -1,4 +1,9 @@
 {%- assign t = site.data[page.lang] -%}
+{%- comment -%} Artigos e Biblioteca só aparecem quando há conteúdo no idioma da página {%- endcomment -%}
+{%- assign n_articles = 0 -%}
+{%- for a in site.articles -%}{%- if a.lang == page.lang -%}{%- assign n_articles = n_articles | plus: 1 -%}{%- endif -%}{%- endfor -%}
+{%- assign n_library = 0 -%}
+{%- for d in site.data.biblioteca -%}{%- if d.lang == page.lang or d.lang == "all" -%}{%- assign n_library = n_library | plus: 1 -%}{%- endif -%}{%- endfor -%}
 <!doctype html>
 <html lang="{{ t.html_lang }}">
 <head>
@@ -44,6 +49,8 @@ if(!s){s=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'
     </button>
     <nav id="menu" class="menu" aria-label="{{ t.ui.nav_label }}">
       {%- for n in t.nav %}
+      {%- if n.id == "artigos" and n_articles == 0 %}{% continue %}{% endif %}
+      {%- if n.id == "biblioteca" and n_library == 0 %}{% continue %}{% endif %}
       <a href="#{{ n.id }}">{{ n.label }}</a>
       {%- endfor %}
     </nav>
@@ -146,28 +153,49 @@ if(!s){s=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'
 <section id="projetos" class="sec">
   <h2>{{ t.sections.projects }}</h2>
   <div class="grid">
+    {%- for p in t.projects %}
     <article class="card">
-      <p class="tag">{{ t.tcc_tag }}</p>
-      <h3 class="lg">{{ t.tcc_title }}</h3>
-      <p class="muted">{{ t.tcc_desc }}</p>
-      <a class="link" href="https://github.com/aguilhermemr/tcc_senac_agmr" rel="noopener" target="_blank">{{ t.repo }}</a>
+      <p class="tag">{{ p.tag }}</p>
+      <h3 class="lg">{{ p.title }}</h3>
+      <p class="muted">{{ p.desc }}</p>
+      <a class="link" href="{{ p.repo }}" rel="noopener" target="_blank">{{ t.repo }}</a>
     </article>
-    <article class="card card-soon">
-      <h3 class="lg">{{ t.more_projects }}</h3>
-      <a class="link" href="{{ site.github }}" rel="noopener" target="_blank">{{ t.all_repos }}</a>
-    </article>
+    {%- endfor %}
   </div>
+  <p><a class="link" href="{{ site.github }}" rel="noopener" target="_blank">{{ t.all_repos }}</a></p>
 </section>
 
+{%- if n_articles > 0 %}
 <section id="artigos" class="sec">
   <h2>{{ t.sections.articles }}</h2>
-  <div class="card card-soon"><h3 class="lg">{{ t.soon }}</h3><p class="muted">{{ t.articles_hint }}</p></div>
+  <div class="grid">
+    {%- assign sorted_articles = site.articles | sort: "date" | reverse %}
+    {%- for a in sorted_articles %}{% if a.lang == page.lang %}
+    <article class="card">
+      <p class="tag">{{ a.date | date: "%d/%m/%Y" }}</p>
+      <h3 class="lg">{{ a.title }}</h3>
+      {%- if a.summary %}<p class="muted">{{ a.summary }}</p>{% endif %}
+      <a class="link" href="{{ site.baseurl }}{{ a.url }}">{{ t.read_more }}</a>
+    </article>
+    {%- endif %}{% endfor %}
+  </div>
 </section>
+{%- endif %}
 
+{%- if n_library > 0 %}
 <section id="biblioteca" class="sec">
   <h2>{{ t.sections.library }}</h2>
-  <div class="card card-soon"><h3 class="lg">{{ t.soon }}</h3><p class="muted">{{ t.library_hint }}</p></div>
+  <div class="grid">
+    {%- for d in site.data.biblioteca %}{% if d.lang == page.lang or d.lang == "all" %}
+    <article class="card">
+      <h3 class="lg">{{ d.title }}</h3>
+      {%- if d.desc %}<p class="muted">{{ d.desc }}</p>{% endif %}
+      <a class="link" href="{{ site.baseurl }}/assets/biblioteca/{{ d.file }}" rel="noopener" target="_blank">{{ t.open_pdf }}</a>
+    </article>
+    {%- endif %}{% endfor %}
+  </div>
 </section>
+{%- endif %}
 
 <section id="contato" class="sec sec-last">
   <h2>{{ t.sections.contact }}</h2>
