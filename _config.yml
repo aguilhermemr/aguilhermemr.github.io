@@ -1,0 +1,15 @@
+title: Angel Guillermo Morales Romero
+url: "https://aguilhermemr.github.io"
+baseurl: ""
+author: Angel Guillermo Morales Romero
+email: aguilhermemr@gmail.com
+linkedin: https://www.linkedin.com/in/angel-guillermo-morales-romero
+github: https://github.com/aguilhermemr
+photo: /assets/img/angel-morales-romero.jpg
+photo_small: /assets/img/angel-morales-romero-200.jpg
+
+languages: [pt, en, es]
+
+markdown: kramdown
+exclude:
+  - README.md
