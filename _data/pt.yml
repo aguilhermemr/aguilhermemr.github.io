@@ -1,0 +1,127 @@
+code: PT
+html_lang: pt-BR
+og_locale: pt_BR
+name: Português
+path: /
+
+meta:
+  title: "Angel Guillermo Morales Romero | Especialista em IA | Gestão de negócios e tecnologia"
+  description: "Portfólio de Angel Guillermo Morales Romero, especialista em IA em São Paulo: formado em Engenharia de Sistemas, pós-graduação em Inteligência Artificial (Senac) e formação Cisco CCNA."
+
+ui:
+  skip: Pular para o conteúdo
+  nav_label: Seções
+  lang_label: Idioma
+  theme_label: Alternar modo claro e escuro
+  menu_label: Abrir menu
+  filter_label: Filtrar por tema
+
+city: São Paulo – SP, Brasil
+headline: Especialista em IA | Gestão de negócios e tecnologia
+sub: Engenharia de Sistemas · Pós-graduação em IA · Formação Cisco CCNA
+photo_alt: Foto de Angel Guillermo Morales Romero
+cv_label: Baixar currículo
+
+nav:
+  - { id: sobre, label: Sobre mim }
+  - { id: trajetoria, label: Trajetória }
+  - { id: habilidades, label: Habilidades }
+  - { id: certificacoes, label: Certificações }
+  - { id: projetos, label: Projetos }
+  - { id: artigos, label: Artigos }
+  - { id: biblioteca, label: Biblioteca }
+  - { id: contato, label: Contato }
+
+sections:
+  about: Sobre mim
+  path: Trajetória
+  skills: Habilidades
+  certs: Cursos e certificações
+  projects: Projetos
+  articles: Artigos
+  library: Biblioteca de PDFs
+  contact: Contato
+
+about: "Formado em Engenharia de Sistemas, com pós-graduação em Inteligência Artificial e experiência em suporte técnico a clientes internacionais por telefone, chat e e-mail. Aplico Python e machine learning à otimização de processos de negócio e possuo formação em redes Cisco CCNA. Sou trilíngue (português, espanhol e inglês) e adaptável: mudei da Bolívia para o Brasil para me especializar em IA."
+languages: "Idiomas: espanhol nativo · inglês fluente · português fluente"
+
+path_hint: Clique em cada etapa para ver os detalhes.
+kinds: { edu: Formação, course: Cursos, job: Experiência }
+timeline:
+  - kind: edu
+    title: Pós-graduação lato sensu em Inteligência Artificial
+    org: Senac, São Paulo – SP
+    dates: 02/2025 – 07/2026
+    details:
+      - "TCC: otimização de workflows empresariais com machine learning (Reinforcement Learning e Graph Neural Networks) aplicada a BPM."
+  - kind: course
+    title: Formação Cisco CCNA v7.0 e Cisco Network Defense
+    org: Senac e Cisco, São Paulo – SP
+    dates: 2023 – 2026
+    details:
+      - Três cursos CCNA concluídos com credenciais verificadas no Credly; exame de certificação em preparação.
+      - "Cisco Network Defense: credencial verificada (2025)."
+  - kind: job
+    title: Representante de suporte técnico e atendimento ao cliente
+    org: Callnovo, La Paz, Bolívia
+    dates: 09/2020 – 05/2022
+    details:
+      - Prestei suporte em inglês a clientes da RedPocket Mobile (operadora dos EUA) e da Tenvis (câmeras IP) por telefone, chat e e-mail.
+      - Solucionei problemas de telefonia móvel e câmeras inteligentes, escalando casos complexos com documentação completa.
+      - Registrei e acompanhei cada caso no CRM até a resolução.
+  - kind: edu
+    title: Bacharelado em Engenharia de Sistemas
+    org: Universidad Católica Boliviana, La Paz, Bolívia
+    dates: 2011 – 2019
+    details:
+      - "Administração de Empresas na mesma universidade: 95% da grade curricular concluída."
+  - kind: job
+    title: Atendimento ao cliente e suporte pós-venda
+    org: Level Store, La Paz, Bolívia
+    dates: 10/2018 – 06/2019
+    details:
+      - Realizei atendimento presencial e suporte pós-venda, diagnosticando e solucionando falhas em produtos.
+      - Gerenciei o relacionamento e a coordenação com fornecedores.
+  - kind: job
+    title: Estagiário de suporte de sistemas
+    org: DM Hoteles S.A., La Paz, Bolívia
+    dates: 03/2015 – 08/2015
+    details:
+      - Apoiei a migração do ERP anterior para o SAP Business One, auxiliando os usuários nos processos de estoque e almoxarifado.
+      - Gerenciei as redes sociais da empresa.
+
+skills_all: Todos
+skill_cats:
+  - id: ia
+    label: IA e dados
+    items: [Python, PyTorch, Machine Learning, Reinforcement Learning, Graph Neural Networks, FastAPI]
+  - id: redes
+    label: Redes
+    items: [Cisco CCNA v7.0 (formação), TCP/IP, Roteamento e Switching, Segurança de redes]
+  - id: processos
+    label: Processos e gestão
+    items: [BPM, Camunda 8, Qualidade de processos, MS Project]
+  - id: suporte
+    label: Suporte e ferramentas
+    items: [SAP Business One, CRM, Troubleshooting, Atendimento multicanal, MS Office]
+
+issued: Emitida em
+verify: Verificar no Credly →
+months: [jan, fev, mar, abr, mai, jun, jul, ago, set, out, nov, dez]
+courses:
+  - Python I – Fundamentos · Python II – Desenvolvendo aplicações web
+  - Gestão da Qualidade em Processos · MS Project – Gestão de projetos
+ccna_note: "Formação Cisco CCNA v7.0: três cursos concluídos com credenciais verificadas no Credly; exame de certificação em preparação."
+
+tcc_tag: IA · BPM
+tcc_title: Otimização de workflows empresariais com machine learning
+tcc_desc: "TCC da pós-graduação: Reinforcement Learning e Graph Neural Networks aplicados a BPM."
+repo: Ver repositório no GitHub →
+more_projects: Mais projetos em breve.
+all_repos: Ver todos no GitHub →
+soon: Em breve.
+articles_hint: Textos sobre IA aplicada a processos de negócio.
+library_hint: Materiais e documentos em PDF para consulta.
+
+contact_text: Aberto a oportunidades em TI e IA no Brasil, na América Latina e em trabalho remoto.
+footer: aguilhermemr.github.io

@@ -1,0 +1,26 @@
+# Insignias de Credly: https://www.credly.com/badges/<id>
+- name: "CCNA: Introduction to Networks"
+  issuer: Cisco
+  year: 2025
+  month: 8
+  id: 66769c5e-4c6b-40ed-8fcc-97702bbb7e89
+- name: "CCNA: Switching, Routing, and Wireless Essentials"
+  issuer: Cisco
+  year: 2025
+  month: 12
+  id: 1cf6a473-fff2-49ef-99fe-fcbb7b62600e
+- name: "CCNA: Enterprise Networking, Security, and Automation"
+  issuer: Cisco
+  year: 2026
+  month: 6
+  id: 984ee8dd-820c-4aa4-978b-179bb5c8f8a6
+- name: Cisco Network Defense
+  issuer: Cisco
+  year: 2025
+  month: 4
+  id: 7c81ecf1-c8cc-4840-bf55-1944e532ca8a
+- name: Learn-A-Thon 2025
+  issuer: ""
+  year: 2025
+  month: 3
+  id: eae5b585-9951-4ab2-b02d-9c91ed010515

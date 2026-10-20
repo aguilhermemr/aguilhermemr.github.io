@@ -1,0 +1,127 @@
+code: EN
+html_lang: en
+og_locale: en_US
+name: English
+path: /en/
+
+meta:
+  title: "Angel Guillermo Morales Romero | AI Specialist in Business & Technology Management"
+  description: "Portfolio of Angel Guillermo Morales Romero, AI Specialist based in São Paulo: Systems Engineer with a postgraduate specialization in Artificial Intelligence (Senac) and Cisco CCNA training."
+
+ui:
+  skip: Skip to content
+  nav_label: Sections
+  lang_label: Language
+  theme_label: Toggle light and dark mode
+  menu_label: Open menu
+  filter_label: Filter by topic
+
+city: São Paulo, SP, Brazil
+headline: AI Specialist in Business & Technology Management
+sub: Systems Engineer · Postgraduate in AI · Cisco CCNA training
+photo_alt: Photo of Angel Guillermo Morales Romero
+cv_label: Download résumé
+
+nav:
+  - { id: sobre, label: About me }
+  - { id: trajetoria, label: Journey }
+  - { id: habilidades, label: Skills }
+  - { id: certificacoes, label: Certifications }
+  - { id: projetos, label: Projects }
+  - { id: artigos, label: Articles }
+  - { id: biblioteca, label: Library }
+  - { id: contato, label: Contact }
+
+sections:
+  about: About me
+  path: Journey
+  skills: Skills
+  certs: Courses and certifications
+  projects: Projects
+  articles: Articles
+  library: PDF library
+  contact: Contact
+
+about: "Systems Engineer with a postgraduate specialization in AI and hands-on experience supporting international clients by phone, chat and email. Applies Python and machine learning to business process optimization, backed by Cisco CCNA training. Trilingual and adaptable, having moved from Bolivia to Brazil to specialize in AI."
+languages: "Languages: Spanish (native) · English (fluent) · Portuguese (fluent)"
+
+path_hint: Click each step to see the details.
+kinds: { edu: Education, course: Training, job: Experience }
+timeline:
+  - kind: edu
+    title: Postgraduate Specialization in Artificial Intelligence
+    org: Senac, São Paulo, Brazil
+    dates: Feb 2025 – Jul 2026
+    details:
+      - "Thesis: business workflow optimization with machine learning (Reinforcement Learning and Graph Neural Networks) applied to BPM."
+  - kind: course
+    title: Cisco CCNA v7.0 training and Cisco Network Defense
+    org: Senac and Cisco, São Paulo, Brazil
+    dates: 2023 – 2026
+    details:
+      - "Cisco CCNA v7.0: all 3 courses with verified badges; certification exam in preparation."
+      - Cisco Network Defense, verified credential (2025).
+  - kind: job
+    title: Customer & Technical Support Representative
+    org: Callnovo, La Paz, Bolivia
+    dates: Sep 2020 – May 2022
+    details:
+      - Supported English-speaking customers of RedPocket Mobile (US carrier) and Tenvis (IP cameras) by phone, chat and email.
+      - Troubleshot mobile and smart-camera issues, escalating complex cases with full documentation.
+      - Logged and tracked every case in the CRM through resolution.
+  - kind: edu
+    title: "Bachelor's Degree in Systems Engineering"
+    org: Universidad Católica Boliviana, La Paz, Bolivia
+    dates: 2011 – 2019
+    details:
+      - "Business Administration at the same university: 95% of coursework completed."
+  - kind: job
+    title: Customer Service & After-Sales Support
+    org: Level Store, La Paz, Bolivia
+    dates: Oct 2018 – Jun 2019
+    details:
+      - Provided in-store customer service and after-sales support, troubleshooting product issues.
+      - Handled supplier management and coordination.
+  - kind: job
+    title: IT Systems Support Intern
+    org: DM Hoteles S.A., La Paz, Bolivia
+    dates: Mar 2015 – Aug 2015
+    details:
+      - Supported the migration from the previous ERP to SAP Business One, assisting users with inventory and warehouse processes.
+      - "Managed the company's social media channels."
+
+skills_all: All
+skill_cats:
+  - id: ia
+    label: AI and data
+    items: [Python, PyTorch, Machine Learning, Reinforcement Learning, Graph Neural Networks, FastAPI]
+  - id: redes
+    label: Networking
+    items: [Cisco CCNA v7.0 (training), TCP/IP, Routing & Switching, Network Security]
+  - id: processos
+    label: Process and management
+    items: [BPM, Camunda 8, Process Quality, MS Project]
+  - id: suporte
+    label: Support and tools
+    items: [SAP Business One, CRM, Troubleshooting, Multichannel Support, MS Office]
+
+issued: Issued
+verify: Verify on Credly →
+months: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+courses:
+  - "Python I: Fundamentals · Python II: Web Application Development"
+  - "Process Quality Management · MS Project: Project Management"
+ccna_note: "Cisco CCNA v7.0 training: all three courses completed with verified Credly badges; certification exam in preparation."
+
+tcc_tag: AI · BPM
+tcc_title: Business workflow optimization with machine learning
+tcc_desc: "Postgraduate thesis: Reinforcement Learning and Graph Neural Networks applied to BPM."
+repo: View repository on GitHub →
+more_projects: More projects coming soon.
+all_repos: See all on GitHub →
+soon: Coming soon.
+articles_hint: Writing on AI applied to business processes.
+library_hint: Reference materials and documents in PDF.
+
+contact_text: Open to IT and AI opportunities in Brazil, Latin America and remote.
+footer: aguilhermemr.github.io
