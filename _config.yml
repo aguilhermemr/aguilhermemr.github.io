@@ -11,5 +11,17 @@ photo_small: /assets/img/angel-morales-romero-200.jpg
 languages: [pt, en, es]
 
 markdown: kramdown
+
+# Artigos: um arquivo .md por artigo em _articles/ (ver README)
+collections:
+  articles:
+    output: true
+    permalink: /artigos/:name/
+defaults:
+  - scope:
+      type: articles
+    values:
+      layout: article
+
 exclude:
   - README.md
