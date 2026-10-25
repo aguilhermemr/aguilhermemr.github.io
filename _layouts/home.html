@@ -158,7 +158,12 @@ if(!s){s=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'
       <p class="tag">{{ p.tag }}</p>
       <h3 class="lg">{{ p.title }}</h3>
       <p class="muted">{{ p.desc }}</p>
-      <a class="link" href="{{ p.repo }}" rel="noopener" target="_blank">{{ t.repo }}</a>
+      <span class="links">
+        <a class="link" href="{{ p.repo }}" rel="noopener" target="_blank">{{ t.repo }}</a>
+        {%- if p.pdf %}
+        <a class="link" href="{{ site.baseurl }}/assets/biblioteca/{{ p.pdf }}" rel="noopener" target="_blank">{{ t.read_pdf | default: "PDF →" }}</a>
+        {%- endif %}
+      </span>
     </article>
     {%- endfor %}
   </div>
