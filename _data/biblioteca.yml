@@ -8,4 +8,15 @@
 #   file: introducao-rl.pdf
 #   desc: "Resumo de estudo, 12 páginas."
 #   lang: pt
-[]
+- title: "Automatización del proceso de contratación de personal mediante BPM y lógica difusa"
+  file: Paper_IEEE_AGMR_2018.pdf
+  desc: "Paper (formato IEEE, em espanhol) do meu projeto de graduação — UCB, 2018."
+  lang: pt
+- title: "Recruitment process automation with BPM and fuzzy logic"
+  file: Paper_IEEE_AGMR_2018.pdf
+  desc: "IEEE-format paper (in Spanish) on my capstone project — UCB, 2018."
+  lang: en
+- title: "Automatización del proceso de contratación de personal mediante BPM y lógica difusa"
+  file: Paper_IEEE_AGMR_2018.pdf
+  desc: "Paper en formato IEEE de mi proyecto de grado — UCB, 2018."
+  lang: es

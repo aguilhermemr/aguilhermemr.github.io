@@ -74,6 +74,7 @@ timeline:
     org: Universidad Católica Boliviana, La Paz, Bolivia
     dates: 2011 – 2019
     details:
+      - "Capstone project: recruitment automation with BPM and fuzzy logic (graded 85, with honors)."
       - "Business Administration at the same university: 95% of coursework completed."
   - kind: job
     title: Customer Service & After-Sales Support
@@ -129,6 +130,10 @@ projects:
     title: Business workflow optimization with machine learning
     desc: "Postgraduate thesis: Reinforcement Learning (PPO) and Graph Neural Networks (GAT) applied to BPMN processes."
     repo: https://github.com/aguilhermemr/tcc_senac_agmr
+  - tag: AI · BPM · Fuzzy logic
+    title: Recruitment automation with BPM and fuzzy logic
+    desc: "Systems Engineering capstone project (UCB, 2018), graded 85 with honors: a ProcessMaker BPM workflow that makes the final-interview decision with a fuzzy inference system (MATLAB), connected through a REST API I built in VB.NET."
+    repo: https://github.com/aguilhermemr/Proyecto-de-Grado-AGMR-repositorio-de-contratacion
   - tag: ML · Classification
     title: Credit card fraud detection
     desc: "Postgraduate group project (Senac): model comparison on imbalanced data with threshold tuning; XGBoost reached an Average Precision of 0.87."

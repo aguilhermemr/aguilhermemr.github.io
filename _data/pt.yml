@@ -74,6 +74,7 @@ timeline:
     org: Universidad Católica Boliviana, La Paz, Bolívia
     dates: 2011 – 2019
     details:
+      - "Projeto de graduação: automação da contratação de pessoal com BPM e lógica difusa (nota 85, com menção honrosa)."
       - "Administração de Empresas na mesma universidade: 95% da grade curricular concluída."
   - kind: job
     title: Atendimento ao cliente e suporte pós-venda
@@ -129,6 +130,10 @@ projects:
     title: Otimização de workflows empresariais com machine learning
     desc: "TCC da pós-graduação: Reinforcement Learning (PPO) e Graph Neural Networks (GAT) aplicados a processos BPMN."
     repo: https://github.com/aguilhermemr/tcc_senac_agmr
+  - tag: IA · BPM · Lógica difusa
+    title: Automação da contratação de pessoal com BPM e lógica difusa
+    desc: "Projeto de graduação em Engenharia de Sistemas (UCB, 2018), nota 85 com menção honrosa: processo BPM no ProcessMaker que decide a entrevista final com um sistema de inferência difusa (MATLAB), conectados por uma API REST que desenvolvi em VB.NET."
+    repo: https://github.com/aguilhermemr/Proyecto-de-Grado-AGMR-repositorio-de-contratacion
   - tag: ML · Classificação
     title: Detecção de fraude em cartões de crédito
     desc: "Projeto em grupo da pós-graduação (Senac): comparação de modelos com dados desbalanceados e ajuste de threshold; XGBoost com Average Precision de 0,87."
