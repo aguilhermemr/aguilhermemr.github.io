@@ -2,21 +2,44 @@
 # Para publicar um PDF: coloque o arquivo em assets/biblioteca/ e adicione um item abaixo.
 # A seção "Biblioteca" e o link no menu aparecem sozinhos quando existir pelo menos
 # um item para o idioma da página (lang: pt, en, es ou all para os três).
-#
-# Exemplo:
-# - title: "Introdução ao Reinforcement Learning"
-#   file: introducao-rl.pdf
-#   desc: "Resumo de estudo, 12 páginas."
-#   lang: pt
-- title: "Automatización del proceso de contratación de personal mediante BPM y lógica difusa"
+# Os itens aparecem na ordem desta lista.
+
+# --- TCC da pós-graduação (Senac, 2026) ---
+- title: "Otimização de workflows empresariais com machine learning (TCC, 2026)"
+  file: TCC_Senac_AGMR_2026.pdf
+  desc: "TCC da Especialização em Inteligência Artificial — Centro Universitário Senac, 2026. Integração de Reinforcement Learning e Graph Neural Networks em tecnologias BPM."
+  lang: pt
+- title: "Business workflow optimization with machine learning (thesis, 2026)"
+  file: TCC_Senac_AGMR_2026.pdf
+  desc: "Postgraduate thesis (in Portuguese), Specialization in Artificial Intelligence — Senac University Center, 2026. Reinforcement Learning and Graph Neural Networks applied to BPM."
+  lang: en
+- title: "Optimización de flujos de trabajo empresariales con machine learning (tesis, 2026)"
+  file: TCC_Senac_AGMR_2026.pdf
+  desc: "Tesis de la Especialización en Inteligencia Artificial (en portugués) — Centro Universitário Senac, 2026. Reinforcement Learning y Graph Neural Networks aplicados a BPM."
+  lang: es
+
+# --- Projeto de graduação (UCB, 2018) ---
+- title: "Automatización del proceso de contratación de personal mediante BPM y lógica difusa (paper, 2018)"
   file: Paper_IEEE_AGMR_2018.pdf
   desc: "Paper (formato IEEE, em espanhol) do meu projeto de graduação — UCB, 2018."
   lang: pt
-- title: "Recruitment process automation with BPM and fuzzy logic"
+- title: "Projeto de graduação completo (2018)"
+  file: Proyecto_de_Grado_AGMR_2018_anonimizado.pdf
+  desc: "Documento completo do projeto de graduação em Engenharia de Sistemas (em espanhol, versão anonimizada) — UCB, 2018."
+  lang: pt
+- title: "Recruitment process automation with BPM and fuzzy logic (paper, 2018)"
   file: Paper_IEEE_AGMR_2018.pdf
   desc: "IEEE-format paper (in Spanish) on my capstone project — UCB, 2018."
   lang: en
-- title: "Automatización del proceso de contratación de personal mediante BPM y lógica difusa"
+- title: "Full capstone project document (2018)"
+  file: Proyecto_de_Grado_AGMR_2018_anonimizado.pdf
+  desc: "Complete Systems Engineering capstone document (in Spanish, anonymized version) — UCB, 2018."
+  lang: en
+- title: "Automatización del proceso de contratación de personal mediante BPM y lógica difusa (paper, 2018)"
   file: Paper_IEEE_AGMR_2018.pdf
   desc: "Paper en formato IEEE de mi proyecto de grado — UCB, 2018."
+  lang: es
+- title: "Proyecto de grado completo (2018)"
+  file: Proyecto_de_Grado_AGMR_2018_anonimizado.pdf
+  desc: "Documento completo del proyecto de grado de Ingeniería de Sistemas (versión anonimizada) — UCB, 2018."
   lang: es

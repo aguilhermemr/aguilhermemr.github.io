@@ -130,10 +130,12 @@ projects:
     title: Business workflow optimization with machine learning
     desc: "Postgraduate thesis: Reinforcement Learning (PPO) and Graph Neural Networks (GAT) applied to BPMN processes."
     repo: https://github.com/aguilhermemr/tcc_senac_agmr
+    pdf: TCC_Senac_AGMR_2026.pdf
   - tag: AI · BPM · Fuzzy logic
     title: Recruitment automation with BPM and fuzzy logic
     desc: "Systems Engineering capstone project (UCB, 2018), graded 85 with honors: a ProcessMaker BPM workflow that makes the final-interview decision with a fuzzy inference system (MATLAB), connected through a REST API I built in VB.NET."
     repo: https://github.com/aguilhermemr/Proyecto-de-Grado-AGMR-repositorio-de-contratacion
+    pdf: Proyecto_de_Grado_AGMR_2018_anonimizado.pdf
   - tag: ML · Classification
     title: Credit card fraud detection
     desc: "Postgraduate group project (Senac): model comparison on imbalanced data with threshold tuning; XGBoost reached an Average Precision of 0.87."
@@ -142,6 +144,7 @@ projects:
     title: Customer churn prediction
     desc: "Course example worked on as a group during the postgraduate program (Senac): L1 logistic regression with SMOTE, tuned threshold (recall ≈ 76%) and an executive retention report."
     repo: https://github.com/aguilhermemr/senac-pos-ia-sad-client-churn
+read_pdf: Read the document (PDF) →
 read_more: Read article →
 open_pdf: Open PDF →
 back: ← Back to portfolio

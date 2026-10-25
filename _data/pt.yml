@@ -49,7 +49,7 @@ path_hint: Clique em cada etapa para ver os detalhes.
 kinds: { edu: Formação, course: Cursos, job: Experiência }
 timeline:
   - kind: edu
-    title: Pós-graduação lato sensu em Inteligência Artificial
+    title: Especialização em Inteligência Artificial
     org: Senac, São Paulo – SP
     dates: 02/2025 – 07/2026
     details:
@@ -130,10 +130,12 @@ projects:
     title: Otimização de workflows empresariais com machine learning
     desc: "TCC da pós-graduação: Reinforcement Learning (PPO) e Graph Neural Networks (GAT) aplicados a processos BPMN."
     repo: https://github.com/aguilhermemr/tcc_senac_agmr
+    pdf: TCC_Senac_AGMR_2026.pdf
   - tag: IA · BPM · Lógica difusa
     title: Automação da contratação de pessoal com BPM e lógica difusa
     desc: "Projeto de graduação em Engenharia de Sistemas (UCB, 2018), nota 85 com menção honrosa: processo BPM no ProcessMaker que decide a entrevista final com um sistema de inferência difusa (MATLAB), conectados por uma API REST que desenvolvi em VB.NET."
     repo: https://github.com/aguilhermemr/Proyecto-de-Grado-AGMR-repositorio-de-contratacion
+    pdf: Proyecto_de_Grado_AGMR_2018_anonimizado.pdf
   - tag: ML · Classificação
     title: Detecção de fraude em cartões de crédito
     desc: "Projeto em grupo da pós-graduação (Senac): comparação de modelos com dados desbalanceados e ajuste de threshold; XGBoost com Average Precision de 0,87."
@@ -142,6 +144,7 @@ projects:
     title: Previsão de churn de clientes
     desc: "Exemplo da disciplina trabalhado em grupo na pós (Senac): regressão logística L1 com SMOTE, threshold ajustado (recall ≈ 76%) e relatório executivo para retenção."
     repo: https://github.com/aguilhermemr/senac-pos-ia-sad-client-churn
+read_pdf: Ler o documento (PDF) →
 read_more: Ler artigo →
 open_pdf: Abrir PDF →
 back: ← Voltar ao portfólio
